@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.column {
+    flex-direction: column;
+}
+
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F5F5F5;
+  
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+section {
+    margin-bottom: 70px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: clamp(64px, 12vw, 72px);
+    margin-bottom: 20px;
+}
+
+  /* Accueil */
+
+h1{
+    font-size: 72px;
+    color: #62C624;
+    text-align: center;
+    margin: 70px ;
+
+  }
+
+.image
+{
+    background: url(truebeck.png) no-repeat center / cover ;
+    width: 100%;
+    min-height: 684px; 
+}
+
+header {
+    width: min(1198px, 95%);
+}
+.iconquestion{
+    justify-content: flex-end;
+    padding: 110px;
+   
+}
+
+
+/* menu */
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    color:black;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+nav a:hover 
+{
+    color: rgba(98, 198, 36, 1);;
+    border-bottom: 3px solid #007627;
+}
+.burger {
+    display: none;
+}
+.accueil h1 {
+    font-size: clamp(60px, 10vw, 72px);
+    font-weight: 900;
+}
+  /* SECTION 1 */
+
+.containerdata {
+margin-right: 70px;
+margin-left: 70px;
+
+}
+.definition{
+
+    margin: 20px;
+    padding-bottom: 70px;
+}
+
+
+
+     /* SOLUTION */   
+     
+
+
+.contenairesolution h2{
+    text-align: start;
+    margin-top: 0;  
+   
+}
+
+
+.contenairesolution p{
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+width: 511px;
+margin: 10px;
+display: flex;
+justify-content: flex-end;
+
+
+}
+
+
+  /* NADIA */
+
+
+.nadia{
+
+    background: #F5F5F5;
+    margin: 70px;
+
+}
+
+h2{
+    font-size: clamp(16px, 6vw, 34px);
+    text-align: center;
+    color: #62C624;
+    margin: 70px;
+}
+h3{
+
+font-size: 24px;
+color: #183060;
+line-height: 1.5;
+}
+
+article {
+    width: min(600px, 100%);
+}
+
+
+.contenairechaudiere {
+
+    justify-content: right;
+    gap: 100px;
+    text-align: left;
+   
+}
+
+
+
+
+
+article P{
+
+    color: #183060;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.imgChaudierenumerique{
+
+    width: 530px;
+    height: 315px;
+}
+
+  /* SYRINE */
+.villeIntro {
+    flex-wrap: wrap-reverse;
+}
+
+
+
+
+  /* DERNIERE SECTION */
+
+
+
+
+
+
+  /* FOOTER */
+
+  h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #183060;
+
+  }
+
+
+  .liens{
+    font-size: 24px;
+    margin: 50px;
+  }
+
+
+  /* media queries */
+
+  @media (max-width:900px){
+    .containerdata {
+        margin-right: 70px;
+        margin-left: 70px;
+        flex-wrap: wrap;
+        }
+
+     .contenairechaudiere {
+
+        justify-content: right;
+        gap: 100px;
+        text-align: left;
+        flex-wrap: wrap;   
+        }
+        .containerpiscine{
+
+
+            justify-content: right;
+            gap: 100px;
+            text-align: left;
+            flex-wrap: wrap; 
+            
+        }   
+        .containerradiateur{
+   
+            justify-content: right;
+            gap: 100px;
+            text-align: left;
+            flex-wrap: wrap; 
+        
+        }
+        .SDP {
+            margin: 70px;
+            flex-wrap: wrap; 
+           
+           }  
+           .smallsize{
+
+            font-size: 20px;
+            padding: 20px;
+            font-weight: 400;
+            color: #183060;
+            flex-wrap: wrap;
+        
+        }
+.SDPexplain {
+    flex-wrap: wrap;
+}
+    }  
+
+
+  
